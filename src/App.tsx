@@ -38,36 +38,36 @@ function App() {
   //Here we are defining the routes that we are using throughput the app
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/admin-dashboard/",
       element: <Layout />,
       children: [
         {
-          path: "/",
+          path: "/admin-dashboard/",
           element: <Home />,
         },
         {
-          path: "/users",
+          path: "/admin-dashboard/users",
           element: <Users />,
         },
         {
-          path: "/products",
+          path: "/admin-dashboard/products",
           element: <Products />,
         },
 
         //this is the trick shot at this.. go back to the users page
         // and observe how he used the <Link to stuff, the trick is there
         {
-          path: "/users/:id",
+          path: "/admin-dashboard/users/:id",
           element: <User />,
         },
         {
-          path: "/products/:id",
+          path: "/admin-dashboard/products/:id",
           element: <Product />,
         },
       ],
     },
     {
-      path: "/login",
+      path: "/admin-dashboard/login",
       element: <Login />,
     },
   ]);
