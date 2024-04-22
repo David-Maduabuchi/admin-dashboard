@@ -9,7 +9,7 @@ function Navbar() {
         <span>KhanRecords</span>
       </div>
       <div className="icons">
-        <img src="/search.svg" alt="" className="icon" />
+        <img src={"/search.svg"} alt="" className="icon" />
         <img src="/app.svg" alt="" className="icon" />
         <img src="/expand.svg " alt="" className="icon" />
         {/* Notification Icon */}
