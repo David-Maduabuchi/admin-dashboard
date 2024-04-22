@@ -9,21 +9,21 @@ function Navbar() {
         <span>KhanRecords</span>
       </div>
       <div className="icons">
-        <img src={`/search.svg`} alt="" className="icon" />
-        <img src="/app.svg" alt="" className="icon" />
-        <img src="/expand.svg " alt="" className="icon" />
+        <img src={`search.svg`} alt="" className="icon" />
+        <img src="app.svg" alt="" className="icon" />
+        <img src="expand.svg " alt="" className="icon" />
         {/* Notification Icon */}
         <div className="notification">
-          <img src="/notifications.svg" alt="" />
+          <img src="notifications.svg" alt="" />
           <span>1</span>
         </div>
         {/* Supposed search box */}
         <div className="user">
-          <img src="/images/oneechan.jpg" alt="" />
+          <img src="images/oneechan.jpg" alt="" />
           <span>Jane</span>
         </div>
         {/* settings icon, I really have to find this libray containing all these icons */}
-        <img src="/settings.svg" alt="" className="icon" />
+        <img src="settings.svg" alt="" className="icon" />
       </div>
     </div>
   );
