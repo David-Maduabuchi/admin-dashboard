@@ -38,11 +38,11 @@ function App() {
   //Here we are defining the routes that we are using throughput the app
   const router = createBrowserRouter([
     {
-      path: "/admin-dashboard/",
+      path: "/",
       element: <Layout />,
       children: [
         {
-          path: "/admin-dashboard/",
+          path: "/",
           element: <Home />,
         },
         {
